@@ -31,7 +31,7 @@ a{
 .navbar{
     display:grid;
     grid-area:navbar;
-  
+   
     grid-template-columns:1.5fr 1fr ;
     background-color:#21BCD4 ;
     
@@ -39,7 +39,12 @@ a{
 .brand-icon{
     padding:1.5rem 1.5rem 1.5rem 3rem;
 }
+.brand-icon>img{
+    width:40px;
+    display:none;
+}
 .brand-icon>span{
+ 
     font-weight: 400;
     font-family: var(--primary-font);
     color:white;
@@ -266,6 +271,8 @@ a{
    grid-template-columns: 1fr 5fr ;
    align-items:center;
    margin-left:8rem;
+   font-weight: 400;
+    font-family: var(--primary-font);
 }
 
 .signup-info{
@@ -286,6 +293,8 @@ a{
 }
 .center-section>h2{
     font-size:2.2rem;
+    font-weight: 400;
+    font-family: var(--primary-font);
 }
 
 .center-section>button{
